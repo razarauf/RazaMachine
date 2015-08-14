@@ -1,0 +1,4 @@
+go    ldr  r0,0      #register 0 will hold the sum, init it
+      lfm  r1,nums   #register 1 points to the numbers to add
+done  hlt  00        #all done. sum is in register 0
+nums  123            #the numbers to add
